@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Objects</title>
+</head>
+<body>
+  <script>
+     let product = {
+       company: 'Mango',
+       price: 861,
+       'item-name': 'T-shirt',
+     };
+      console.log(product);
+      console.log(product.company);
+     console.log(product.price);
+     console.log(product.item_name);
+     product.company = 'Banana';
+     console.log(product);
+
+     
+
+    
+    
+    let product = {
+      company: 'Mango',
+      price: 861,
+      'item-name': 'T-shirt',
+    };
+
+    let {company, price} = product;
+    console.log(company);
+    console.log(price);
+  </script>
+</body>
+</html>

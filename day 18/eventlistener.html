@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1"></button>
+
+
+    <script>
+       let btn1= document.querySelector("#btn1");
+       btn1.addEventListener("click", ()=>{
+        console.log("button was clicked 1");
+        
+       });
+
+       const prop=()=>{
+        console.log("button was clicked 2");
+        
+       };
+
+        btn1.addEventListener("click", prop);
+        btn1.removeEventListener("click", prop);
+       
+    </script>
+</body>
+</html>

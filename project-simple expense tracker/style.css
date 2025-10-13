@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body{
+    background: rgb(37, 29, 25);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 10px;
+    background: white;
+}
+.app
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+.left{
+   
+    padding: 2rem;
+}
+.right
+{
+  border-radius: 10px;
+  color: white;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    padding: 1rem 2rem; 
+    background: rgb(50, 52, 199);
+}
+input{
+    display: block;
+    width: 100%;
+    height: 2rem;
+    background: rgb(230, 230, 230);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    
+}
+input[type = "submit"]{
+    background: rgb(50, 52, 199);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.total p{
+    color: rgb(10, 4, 4);
+}
+li{
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+.remove{
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    outline: none;
+    background: transparent;
+    color: white;
+}

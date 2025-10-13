@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Expense Tracker</h1>
+      </div>
+      <div class="app">
+      <div class="left">
+      <form>
+        <div class="inputs">
+          <label for="">
+            Amount Spent On -
+            <input type="text" id="description" />
+          </label>
+          <label for="">
+            Amount
+            <input type="number" id="amount" placeholder="in rupees" step="any" />
+          </label>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <div class="right">
+      
+        <ul id="history">
+            <h2>Expenses</h2>
+        </ul>
+    
+      <div class="total">
+        <h3>Total amount spent</h3>
+        <p id="total">00.00</p>
+      </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
